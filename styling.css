@@ -33,11 +33,33 @@ body {
 }
 
 /* style jumbotron */
+.jumbotron {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 2.5px;
+
+}
 
 /* limit the width of the icon section */
-
+.container {
+  max-width: 1000px;
+}
 /* Style icons section using bootstrap grid system */
+.bodyimage {
+  height: 100px;
+}
 
+.col-md-4 {
+  text-align: center;
+  color: white;
+}
+
+.icons p {
+  font-size: 15px;
+}
 /* Style contact button */
 
 /* style footer */
