@@ -1,0 +1,24 @@
+/* styling body by adding background image and set it to cover,
+add font family */
+body {
+  background: url(https://freenaturestock.s3.amazonaws.com/232.jpg) no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arvo, serif;
+}
+
+/* stly brand image */
+
+/* style nav bar by adding colors and hover states */
+
+/* style jumbotron */
+
+/* limit the width of the icon section */
+
+/* Style icons section using bootstrap grid system */
+
+/* Style contact button */
+
+/* style footer */
+
+/* add media queries to change the size of icons for smaller devices */
