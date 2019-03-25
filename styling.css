@@ -27,7 +27,7 @@ body {
 
 .nav li:hover {
   cursor: pointer;
-  border-bottom: 1px solid #00FFB8;
+  border-bottom: 1px solid rgb(0, 255, 184);
   padding-bottom: 9px;
 
 }
@@ -61,7 +61,37 @@ body {
   font-size: 15px;
 }
 /* Style contact button */
+.contact {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
 
+.btn {
+  background: rgba(0, 255, 184, 0.5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 70px;
+  letter-spacing: 1.3px;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+}
 /* style footer */
-
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: grey;
+  font-size: 15px;
+  padding: 10px 0px;
+}
 /* add media queries to change the size of icons for smaller devices */
+@media (max-width: 768px){
+  .bodyimage {
+    height: 70px;
+  }
+}
